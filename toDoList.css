@@ -1,0 +1,22 @@
+
+.header{
+    padding: 10px;
+    margin: 30;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.input_tag{
+    margin-top: 12px;
+    padding: 10px;
+    text-align: right;  
+}
+
+.over_task{
+    text-align: center;
+    background-color: rgba(86, 255, 70, 0.808);
+}
+
+.tasks{
+    background-color:rgba(239, 242, 250, 0.959);
+}
