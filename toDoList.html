@@ -9,10 +9,11 @@
 </head>
 
 <body>
-    <h1 class="header">
-        <center>To-Do-List Web-Application</center>
-    </h1>
-
+    <div class="centering">
+        <h1 class="header">
+            To-Do-List Web-Application
+        </h1>
+    </div>
 
     <div class="input_tag">
         <center>
@@ -24,26 +25,30 @@
     <br>
     <hr>
 
-<h3 style="text-align: center;">
-    Task's
-</h3>
-    <ul id="list_of_operation"></ul>
+    <div class="h3_tag">
+        <h3 class="list_of_task">
+            List of Task's
+        </h3>
+    </div>
+
+    <ul id="list_of_operation" style="padding: 20px;"></ul>
     <br>
     <hr>
 
 
-    <div class="over_tasks">
+        <div class="h2_tag">
+        <h2 class="Complete_Class">Completed Task's </h2>
+        </div>
 
-        <center>
-            <h2 style="color: dimgray;">Completed Task's </h2>
-        </center>
+
+        <div class="over_tasks">
         <ol id="Completed_Task" class="tasks"></ol>
     </div>
     <script src="toDoList.js"></script>
 </body>
 
 
-    
+
 </input>
 
 </html>

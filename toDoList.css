@@ -1,22 +1,41 @@
+.header {
 
-.header{
-    padding: 10px;
-    margin: 30;
-    background-color: cadetblue;
+    display: inline-block;
+    padding: 12px;
+    margin: 1;
+    background-color: rgb(29, 192, 138);
     text-align: center;
 }
 
-.input_tag{
+.centering {
+    text-align: center;
+    padding: 12px;
+}
+
+.input_tag {
     margin-top: 12px;
     padding: 10px;
-    text-align: right;  
 }
 
-.over_tasks{
+.tasks {
     text-align: center;
-    background-color: rgba(86, 255, 70, 0.808);
+    display: inline-flexbox;
+    background-color:rgba(171, 200, 207, 0.932);
+}
+.Complete_Class{
+    display: inline-block;
+    padding: 20px;
+    background-color: rgb(104, 255, 66);
 }
 
-.tasks{
-    background-color:rgba(239, 242, 250, 0.959);
+
+
+.list_of_task{
+    display: inline-block;
+    background-color: rgb(240, 255, 29);
+    padding: 5px;
+}
+
+.h3_tag,.h2_tag , .over_tasks{
+    text-align: center;
 }
