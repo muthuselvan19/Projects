@@ -1,41 +1,93 @@
 .header {
 
-    display: inline-block;
+    /* display: inline-block;
     padding: 12px;
-    margin: 1;
-    background-color: rgb(29, 192, 138);
+    margin: 1; */
+    background-color: rgb(12, 178, 207);
     text-align: center;
+    display: inline-block;
+
+    width: 600px;
+
+    /* text-align: center; */
+    /* height: 100px;
+    width: 250px; */
+    border-radius: 10px;
+    cursor:grab;
+    transition: 200ms;
 }
 
 .centering {
-    text-align: center;
-    padding: 12px;
-}
-
-.input_tag {
-    margin-top: 12px;
     padding: 10px;
+    text-align: center;
 }
 
 .tasks {
     text-align: center;
+    /* padding: 2px; */
     display: inline-flexbox;
-    background-color:rgba(171, 200, 207, 0.932);
+    background-color: rgba(171, 200, 207, 0.932);
 }
-.Complete_Class{
+
+.Complete_Class {
     display: inline-block;
-    padding: 20px;
+    border-radius: 12px;
+    width: 400px;
     background-color: rgb(104, 255, 66);
 }
 
 
 
-.list_of_task{
+.list_of_task {
     display: inline-block;
-    background-color: rgb(240, 255, 29);
-    padding: 5px;
+    background-color: rgba(199, 147, 212, 0.959);
+    padding: 12px;
+    border-radius: 10px;
+    width: 300px;
 }
 
-.h3_tag,.h2_tag , .over_tasks{
+.h3_tag,
+.h2_tag,
+.over_tasks {
     text-align: center;
+}
+
+.ul_tag_list {
+    display: ruby;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.ul_tag_list :hover {
+    cursor: alias;
+}
+
+.input_tag {
+    margin-top: 12px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    /* display: flex; */
+}
+
+
+input {
+    margin: 5px;
+}
+
+.get_tag {
+    border-style: solid;
+
+
+}
+
+.sumbit_tag,
+.reset_tag {
+    border-style: none;
+    background-color: rgb(67, 241, 241);
+}
+
+.sumbit_tag:hover{
+    cursor: pointer;
+    
 }

@@ -16,11 +16,10 @@
     </div>
 
     <div class="input_tag">
-        <center>
-            <input id="task" type="text" placeholder="Enter Your Task">
-            <input id="submmission" type="submit" style="cursor: pointer;">
-            <input type="reset">
-        </center>
+        <input id="task" type="text" class="get_tag" placeholder="Enter Your Task">
+        <br>
+        <input id="submmission" type="submit" class="sumbit_tag" value="Add to Task">
+        <input type="reset" value="Clear it" class="reset_tag">
     </div>
     <br>
     <hr>
@@ -31,17 +30,17 @@
         </h3>
     </div>
 
-    <ul id="list_of_operation" style="padding: 20px;"></ul>
+    <ul id="list_of_operation" class="ul_tag_list"></ul>
     <br>
     <hr>
 
 
-        <div class="h2_tag">
+    <div class="h2_tag">
         <h2 class="Complete_Class">Completed Task's </h2>
-        </div>
+    </div>
 
 
-        <div class="over_tasks">
+    <div class="over_tasks">
         <ol id="Completed_Task" class="tasks"></ol>
     </div>
     <script src="toDoList.js"></script>
