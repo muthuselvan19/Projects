@@ -24,8 +24,7 @@
 
 .tasks {
     text-align: center;
-    /* padding: 2px; */
-    display: inline-flexbox;
+    /* padding: 2px; */;
     background-color: rgba(171, 200, 207, 0.932);
 }
 
@@ -53,17 +52,22 @@
 }
 
 .ul_tag_list {
-    display: ruby;
+    margin: 5px;
+    display:ruby;
     list-style-type: none;
-    padding: 10px;
+    align-items: center;
+}
+
+li{
+    /* padding: 10px; */
+    margin: 7.6px;
 }
 
 .ul_tag_list :hover {
-    cursor: alias;
+    cursor:auto;
 }
 
 .input_tag {
-    margin-top: 12px;
     padding: 10px;
     border-radius: 10px;
     text-align: center;
@@ -71,23 +75,29 @@
 }
 
 
-input {
-    margin: 5px;
-}
+
 
 .get_tag {
-    border-style: solid;
-
+    padding: 5px;
+    margin: 10px;
+    border-style:dashed;
+    border-color: rgb(0, 0, 0);
+    border-radius: 3.3px;
 
 }
 
 .sumbit_tag,
 .reset_tag {
-    border-style: none;
-    background-color: rgb(67, 241, 241);
+    margin: 10px;
+    padding: 4.5px;
+    border-style:double;
+    border-color: rgb(10, 7, 14);
+    border-radius:4.5px;
+    background-color: rgb(157, 201, 250);
+    
 }
 
 .sumbit_tag:hover{
     cursor: pointer;
-    
+
 }
