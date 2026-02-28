@@ -3,6 +3,9 @@
     /* display: inline-block;
     padding: 12px;
     margin: 1; */
+    border: 1px solid transparent;
+    border-color: rgba(0, 0, 0, 0.384);
+    text-shadow: 2px;
     background-color: rgb(12, 178, 207);
     text-align: center;
     display: inline-block;
@@ -13,8 +16,7 @@
     /* height: 100px;
     width: 250px; */
     border-radius: 10px;
-    cursor:grab;
-    transition: 200ms;
+    
 }
 
 .centering {
@@ -24,7 +26,8 @@
 
 .tasks {
     text-align: center;
-    /* padding: 2px; */;
+    /* padding: 2px; */
+    ;
     background-color: rgba(171, 200, 207, 0.932);
 }
 
@@ -39,6 +42,8 @@
 
 .list_of_task {
     display: inline-block;
+    border: 1.5px solid transparent;
+    border-color: rgba(134, 128, 128, 0.932);
     background-color: rgba(199, 147, 212, 0.959);
     padding: 12px;
     border-radius: 10px;
@@ -53,23 +58,14 @@
 
 .ul_tag_list {
     margin: 5px;
-    display:ruby;
+    display: ruby;
     list-style-type: none;
     align-items: center;
 }
 
-li{
-    /* padding: 10px; */
-    margin: 7.6px;
-}
-
-.ul_tag_list :hover {
-    cursor:auto;
-}
-
 .input_tag {
     padding: 10px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     text-align: center;
     /* display: flex; */
 }
@@ -80,24 +76,39 @@ li{
 .get_tag {
     padding: 5px;
     margin: 10px;
-    border-style:dashed;
-    border-color: rgb(0, 0, 0);
-    border-radius: 3.3px;
+    border:1px solid transparent;
+    border-color: #646cff;
+    /* border-color: rgb(0, 0, 0); */
+    /* border-radius: 1px; */
 
 }
 
 .sumbit_tag,
 .reset_tag {
+    border: 1px solid transparent;
+    border-color:gold;
+    border-radius: 8px;
     margin: 10px;
     padding: 4.5px;
-    border-style:double;
-    border-color: rgb(10, 7, 14);
-    border-radius:4.5px;
-    background-color: rgb(157, 201, 250);
-    
-}
-
-.sumbit_tag:hover{
+    font-family: sans-serif;
     cursor: pointer;
-
 }
+
+.reset_tag{
+    border-color: red;
+}
+
+
+li{
+    /* padding: 10px; */
+    margin: 7.6px;
+}
+button{
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-color: rgb(0, 0, 0);
+    border-radius: 3px;
+    border-style: outset;
+}
+
+
