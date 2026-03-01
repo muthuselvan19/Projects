@@ -21,13 +21,17 @@ submitoption.addEventListener('click', (event) => {
 
 let taskCompletion = document.getElementById('Completed_Task');
 function overTask(id) {
-    taskCompletion.innerHTML += '<li>' + taskSaver[id] + '</li>'
-
+    let dt = new Date().toLocaleTimeString();
+    taskCompletion.innerHTML += '<li>' + taskSaver[id] + "\t On   :     " + dt + '</li>'
 }
 
-const now = new Date().toLocaleTimeString();
-    // innerHTML = '<p>'+ now +'</p>'
-    // console.log(now);
+// const now = document.getElementById('')
+// function overTime(id) {
+//     let current = now.toLocaleTimeString();
+
+// }
+// innerHTML = '<p>'+ now +'</p>'
+// console.log(now);
 
 // let timing = document.getElementById('op');
 // if(task_val.value == ''){
